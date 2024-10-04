@@ -3,14 +3,14 @@ import { getCSS, tickConfig } from "./common.js"
 async function quantidadeUsuariosPorRede() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
 
-:root {
+.root {
     --bg-color: #222831;
     --primary-color: #DDDDDD;
     --secondary-color: #F05454;
     --font: "Nunito Sans", sans-serif;
 }
 
-body {
+.body {
     background-color: var(--bg-color);
     color: var(--primary-color);
     font-family: var(--font);
@@ -18,32 +18,32 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 1px;
 }
 
-h1 {
+.h1 {
     font-size: 2rem;
     color: var(--bg-color);
     font-weight: 700;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     color: var(--bg-color);
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
 
-nav a:hover {
+.nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
@@ -64,12 +64,12 @@ nav a:hover {
     border: var(--secondary-color) solid 2px;
 }
 
-span {
+.span {
     font-weight: bold;
     color: var(--secondary-color);
 }
 
-footer {
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,4 +133,4 @@ footer {
     Plotly.newPlot(grafico, data, laytout)
 }
 
-quantidadeUsuariosPorRede()
+quantidadeUsuariosPorRede()b
